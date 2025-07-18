@@ -230,5 +230,9 @@ main {
   font-weight: bold;
 }
 
+.experience p:first-child {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
 /* feature end */
 /* main end here */

@@ -110,12 +110,21 @@ main {
 }
 
 .experience {
+  padding: 15px 30px;
   margin-left: 0px;
-  margin-top: -85px;
+  margin-top: -45px;
 
   outline: 3px solid var(--primary-color); /* outline thickness and color */
   outline-offset: 7px;
 }
 
+.experience p {
+  color: white;
+  font-size: 1rem;
+}
+
+.experience p:first-child {
+  font-size: 2rem;
+}
 /* feature end */
 /* main end here*/
