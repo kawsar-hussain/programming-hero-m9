@@ -42,6 +42,10 @@ nav {
   margin-top: 15px;
 }
 
+.nav-link li:nth-child(3) a {
+  font-size: 0.85rem;
+}
+
 .nav-link a:hover {
   border-bottom: none;
 }
@@ -72,6 +76,7 @@ main {
 .team__img {
   gap: 7px;
 }
+
 /* team start */
 .team {
   flex-direction: column-reverse;
@@ -190,10 +195,6 @@ main {
   grid-column: 1 / 3;
   width: 100px;
   justify-self: center;
-}
-
-.sponsor__brand img:hover {
-  filter: grayscale(100%);
 }
 /* sponsor end */
 /* main end here*/
