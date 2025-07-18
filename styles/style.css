@@ -8,6 +8,11 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+  color: #2b2b2b;
+}
+
+p {
+  color: var(--dark3);
 }
 
 img {
@@ -17,6 +22,16 @@ img {
 
 section {
   margin-bottom: 130px;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 /* variables */
@@ -77,10 +92,12 @@ nav {
 
 .nav-link a {
   color: var(--dark2);
+  padding-bottom: 2px;
 }
 
 .nav-link a:hover {
   color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
   transition: 0.3s;
 }
 
@@ -135,16 +152,16 @@ main {
   justify-content: center;
 }
 
-.team__title {
+.header-style {
   font-size: 3.7rem;
   color: var(--dark3);
 }
 
-.team__title span:first-child {
+.header-style span:first-child {
   font-weight: 400;
 }
 
-.team__title span:last-child {
+.header-style span:last-child {
   color: var(--primary-color);
 }
 
@@ -154,4 +171,64 @@ main {
 }
 /* team start */
 
+/* feature start */
+.feature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature__info {
+  max-width: 470px;
+  margin-right: 50px;
+}
+
+.feature__title {
+  font-size: 3rem;
+  max-width: 470px;
+  border-left: 6px solid var(--dark3);
+  padding-left: 20px;
+}
+
+.feature__desc {
+  padding: 20px 0;
+}
+
+.feature__card {
+  padding: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.feature__card__title {
+  margin-bottom: 10px;
+}
+
+.feature__img {
+  margin: 0 0 90px 80px;
+}
+
+.experience {
+  padding: 45px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+
+  margin-left: -80px;
+  margin-top: -65px;
+}
+
+.experience p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.experience p:first-child {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* feature end */
 /* main end here */

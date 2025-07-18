@@ -1,4 +1,15 @@
 /* common classes */
+.btn {
+  font-size: 1.2rem;
+  padding: 18px 34px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 section {
   margin-bottom: 30px;
 }
@@ -79,4 +90,32 @@ main {
 }
 /* team end */
 
+/* feature start */
+.feature__info {
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.feature__img {
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__img img {
+  width: 100%;
+  display: block;
+}
+
+.experience {
+  margin-left: 0px;
+  margin-top: -85px;
+
+  outline: 3px solid var(--primary-color); /* outline thickness and color */
+  outline-offset: 7px;
+}
+
+/* feature end */
 /* main end here*/
