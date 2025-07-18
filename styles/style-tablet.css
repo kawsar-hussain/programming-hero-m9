@@ -10,6 +10,10 @@
   cursor: pointer;
 }
 
+h3 {
+  font-size: 2.4rem;
+}
+
 section {
   margin-bottom: 30px;
 }
@@ -73,6 +77,10 @@ main {
   flex-direction: column-reverse;
 }
 
+.team__title {
+  font-size: 3rem;
+}
+
 .team__img img {
   width: 100%;
 }
@@ -95,9 +103,16 @@ main {
 /* team end */
 
 /* feature start */
+.feature {
+  margin-bottom: -40px;
+}
 .feature__info {
   max-width: 100%;
   margin-right: 0;
+}
+
+.feature__title {
+  font-size: 2.4rem;
 }
 
 .feature__img {

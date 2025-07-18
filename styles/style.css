@@ -36,7 +36,7 @@ h4 {
 
 /* variables */
 :root {
-  --background-color: rgba(255, 144, 14, 0.1);
+  --background-color: #ff900e1a;
   --primary-color: #ff900e;
   --dark2: #424242;
   --dark3: #727272;
