@@ -1,11 +1,25 @@
+/* common classes */
+section {
+  margin-bottom: 30px;
+}
+
+.dir-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header start here*/
 header {
   padding: 0 20px;
 }
 
 nav {
-  flex-direction: column;
   padding: 30px 0;
   align-items: center;
+}
+
+.nav-link {
+  text-align: center;
 }
 
 .nav-item {
@@ -22,6 +36,46 @@ nav {
   margin: 10px 20px 15px;
 }
 
+.banner-btn {
+  margin-bottom: 30px;
+}
+
 .banner-img {
   padding-bottom: 20px;
 }
+/* header end here */
+
+/* main start here*/
+main {
+  padding: 0 20px;
+}
+.team__img {
+  gap: 7px;
+}
+/* team start */
+.team {
+  flex-direction: column-reverse;
+}
+
+.team__img img {
+  width: 100%;
+}
+
+.team__info {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.team__desc {
+  padding: 15px 30px;
+}
+
+.team__btn {
+  margin-bottom: 30px;
+}
+/* team end */
+
+/* main end here*/
