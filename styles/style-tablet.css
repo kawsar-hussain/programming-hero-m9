@@ -127,4 +127,23 @@ main {
   font-size: 2rem;
 }
 /* feature end */
+
+/* facts start */
+.facts__desc {
+  padding: 15px 0;
+  max-width: 100%;
+}
+
+.facts__boxes {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.facts__box {
+  max-width: 100%;
+  padding: 30px 20px;
+}
+
+/* facts end */
 /* main end here*/
