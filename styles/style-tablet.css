@@ -145,5 +145,13 @@ main {
   padding: 30px 20px;
 }
 
+.box p:nth-child(2) {
+  font-size: 2rem;
+}
+
+.box p:last-child {
+  font-size: 0.9rem;
+}
+
 /* facts end */
 /* main end here*/
