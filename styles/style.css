@@ -60,6 +60,14 @@ nav {
   font-size: 45px;
 }
 
+.nav-title span:first-child {
+  color: var(--primary-color);
+}
+
+.nav-title span:last-child {
+  border-bottom: 4px solid var(--primary-color);
+}
+
 .nav-link {
   display: flex;
   align-items: center;
@@ -67,7 +75,7 @@ nav {
 }
 
 .nav-link a {
-  color: black;
+  color: var(--dark2);
 }
 
 .nav-link a:hover {
