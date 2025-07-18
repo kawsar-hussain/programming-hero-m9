@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  padding: 240px;
+}
+
+/* variables */
+:root {
+  --background-color: rgba(255, 144, 14, 0.1);
+  --primary-color: #ff900e;
+  --dark2: #424242;
+  --dark3: #727272;
+}
+
+/* common classes */
+.btn {
+  font-size: 1.2rem;
+  padding: 22px 30px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 130px;
+}
+
+div {
+  background-color: red;
+  height: 200px;
+}
