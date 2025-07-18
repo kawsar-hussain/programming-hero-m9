@@ -37,7 +37,7 @@ h4 {
 
 /* variables */
 :root {
-  --background-color: #ff900e1a;
+  --background-color: #fff4e6;
   --primary-color: #ff900e;
   --dark2: #424242;
   --dark3: #727272;
@@ -69,16 +69,15 @@ h4 {
   border-bottom: 4px solid var(--primary-color);
 }
 
-/* header start here */
-header {
-  padding: 0 240px;
-  background-color: var(--background-color);
-}
-
+/* nav start here */
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 50px 0;
+  background-color: #fff4e6;
+  padding: 15px 240px;
+
+  position: sticky;
+  top: 0;
 }
 
 .nav-title {
@@ -110,13 +109,32 @@ nav {
   transition: 0.3s;
 }
 
+.hide-small-nav {
+  display: none;
+}
+
+.nav-link,
+.hide-small-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* nav end here */
+
+/* header start here */
+header {
+  padding: 0 240px;
+  background-color: var(--background-color);
+}
+
 .banner {
   text-align: center;
 }
 
 .banner-title {
   font-size: 4rem;
-  margin: 60px 190px 0;
+  padding: 60px 190px 0;
+  margin-top: 0;
 }
 
 .banner-desc {
@@ -260,7 +278,7 @@ main {
   grid-template-columns: 220px 220px 220px 220px;
   justify-content: center;
   gap: 50px;
-  padding: 70px 0;
+  padding: 70px 0 0;
 }
 
 .facts__box {
@@ -294,6 +312,7 @@ main {
 /* sponsor start */
 .sponsor {
   text-align: center;
+  margin-bottom: 35px;
 }
 
 .sponsor__desc {
