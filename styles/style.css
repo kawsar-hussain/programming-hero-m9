@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+section {
+  margin-bottom: 130px;
+}
+
+/* variables */
+:root {
+  --background-color: rgba(255, 144, 14, 0.1);
+  --primary-color: #ff900e;
+  --dark2: #424242;
+  --dark3: #727272;
+}
+
+/* common classes */
+.btn {
+  font-size: 1.2rem;
+  padding: 18px 34px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  scale: 1.05;
+  transition: 0.1s;
+}
+
+/* header start here */
+header {
+  padding: 0 240px;
+  background-color: var(--background-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.nav-title {
+  font-size: 45px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-link a {
+  color: black;
+}
+
+.nav-link a:hover {
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 4rem;
+  margin: 60px 190px 0;
+}
+
+.banner-desc {
+  color: var(--dark3);
+  margin: 10px 150px 30px;
+}
+
+.banner-btn {
+  margin-bottom: 50px;
+}
+
+.banner-img {
+  padding-bottom: 45px;
+}
+/* header end here */
