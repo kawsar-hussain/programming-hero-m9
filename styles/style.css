@@ -74,14 +74,15 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: #fff4e6;
-  padding: 15px 240px;
+  padding: 12px 240px;
 
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .nav-title {
-  font-size: 45px;
+  font-size: 2.5rem;
 }
 
 .nav-title span:first-child {
@@ -202,6 +203,7 @@ main {
 .feature {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0px;
 }
 
 .feature__info {
@@ -290,6 +292,12 @@ main {
 .box {
   text-align: center;
   font-weight: 600;
+}
+
+.facts__box:hover {
+  scale: 1.03;
+  transition: 0.3s;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.347);
 }
 
 .box p:nth-child(2) {
